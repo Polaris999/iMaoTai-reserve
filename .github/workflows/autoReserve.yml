@@ -9,6 +9,7 @@ on:
     paths:
       - '.github/workflows/**'
   schedule:
+    # 0 1 * * * 表示在每天格林尼治时间的 1:00 AM，也就是在北京时间的 9:00 AM 自动运行
     - cron: '20 0,1 * * *'
 
 env:
